@@ -1,0 +1,23 @@
+{
+  "name": "free-katalon-studio",
+  "version": "1.0.0",
+  "description": "Execute Katalon Studio project on Github Actions with No Cost",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@actions/github": "^6.0.0",
+    "gha-utils": "^0.4.1",
+    "katalon-cli": "github:katalon-studio/katalon-agent#v1.4.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "rollup": "^4.27.4"
+  }
+}
