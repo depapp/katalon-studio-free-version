@@ -1,4 +1,4 @@
-name: 'Free Katalon Studio'
+name: 'Katalon Studio Free Version'
 description: 'Execute Katalon Studio project on Github Actions with No Cost'
 branding:
       icon: "check-square"
