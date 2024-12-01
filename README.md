@@ -3,7 +3,7 @@ Execute Katalon Studio project on Github Actions with No Cost
 
 ## Usage
 ```yaml
-uses: depapp/free-katalon-studio-github-actions@v1.4.1
+uses: depapp/katalon-studio-free-version@v1.0.0
 with:
   testSuitePath: 'Test Suites/Web/TS - Login'
   browserType: 'Chrome'
