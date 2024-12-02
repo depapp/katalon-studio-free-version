@@ -1,5 +1,5 @@
-const { execute } = require("katalon-cli/src/katalon-studio");
-const { getInput, logError } = require("gha-utils");
+import { execute } from "katalon-cli/src/katalon-studio";
+import { getInput, logError } from "gha-utils";
 
 const user_version = getInput("version");
 const user_projectPath = getInput("projectPath");
