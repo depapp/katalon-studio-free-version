@@ -56,7 +56,7 @@ function getAugmentedNamespace(n) {
 	return a;
 }
 
-var freeKatalonStudio = {};
+var katalonStudioFreeVersion = {};
 
 var lodash$1 = {exports: {}};
 
@@ -95876,11 +95876,11 @@ var dist = /*#__PURE__*/Object.freeze({
 
 var require$$1 = /*@__PURE__*/getAugmentedNamespace(dist);
 
-var hasRequiredFreeKatalonStudio;
+var hasRequiredKatalonStudioFreeVersion;
 
-function requireFreeKatalonStudio () {
-	if (hasRequiredFreeKatalonStudio) return freeKatalonStudio;
-	hasRequiredFreeKatalonStudio = 1;
+function requireKatalonStudioFreeVersion () {
+	if (hasRequiredKatalonStudioFreeVersion) return katalonStudioFreeVersion;
+	hasRequiredKatalonStudioFreeVersion = 1;
 	const { execute } = requireKatalonStudio();
 	const { getInput, logError } = require$$1;
 
@@ -95919,10 +95919,10 @@ function requireFreeKatalonStudio () {
 	  console.error(error);
 	  logError(error.message);
 	}
-	return freeKatalonStudio;
+	return katalonStudioFreeVersion;
 }
 
-var freeKatalonStudioExports = requireFreeKatalonStudio();
-var index = /*@__PURE__*/getDefaultExportFromCjs(freeKatalonStudioExports);
+var katalonStudioFreeVersionExports = requireKatalonStudioFreeVersion();
+var index = /*@__PURE__*/getDefaultExportFromCjs(katalonStudioFreeVersionExports);
 
 module.exports = index;
